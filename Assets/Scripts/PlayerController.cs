@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         // 2. DETECTAR SALTO
         // Input.GetButtonDown("Jump") detecta la barra espaciadora (por defecto en Unity)
         // Solo podemos saltar si "isGrounded" es verdadero
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetButtonDown("Jump"));
         {
             // Aplicamos una fuerza vertical instantánea
             // Usamos VelocityChange para ignorar la masa del jugador y dar un salto consistente
